@@ -5,46 +5,46 @@ NOTE WIP/research
 ## Structure
 
 
-Blockchain: {
+    Blockchain: {
 
-    blocks[]
+        blocks[]
 
-    leadingBlock
+        leadingBlock
 
-    leadingNode
+        leadingNode
 
-    proof of work?
+        proof of work?
 
-    etc
+        etc
 
-}
+    }
 
-Block: {
+    Block: {
 
-   type of block
+       type of block
 
-   header
+       header
 
-   hash
+       hash
 
-    transactions
+        transactions
 
-    balance
+        balance
 
-    etc
-  
-}
+        etc
+
+    }
 
 
-crossBlock: {
+    crossBlock: {
 
-    id
+        id
 
-    blockchain
+        blockchain
 
-    leadingBlock/node
+        leadingBlock/node
 
-    consensus
-  
-}
+        consensus
+
+    }
 
